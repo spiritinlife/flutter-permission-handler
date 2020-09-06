@@ -14,6 +14,9 @@
     if (self) {
         _strategyInstances = _strategyInstances = [[NSMutableArray alloc] init];
     }
+    #if PERMISSION_CAMERA
+            NSLog(@"PERMISSION_CAMERA");
+    #endif
     
     return self;
 }
