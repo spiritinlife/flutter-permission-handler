@@ -18,6 +18,10 @@
             NSLog(@"PERMISSION_CAMERA");
     #endif
     
+    #if PERMISSION_CAMERA2
+            NSLog(@"PERMISSION_CAMERA2");
+    #endif
+    
     return self;
 }
 
